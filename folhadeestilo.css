@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/IDroid.otf);
+}
+    
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}:root{
+    --co1: #8674a0;
+    --cor2: #be827d;
+    --cor2-1: #bdb5b4;
+    --co3: #674D8C;
+    --co4: #f2f2f28f;
+    --cor5: #0D0D0D;
+    --cor6: #ffffff;
+}body{
+        background-color: var(--co1);
+        
+}header > section{
+    background-image: linear-gradient(to bottom, var(--co1),var(--co3));
+    border: solid 2px var(--cor5);
+    padding: 4% 38%;
+    text-align: center;
+    box-shadow: 0px 4px 13px 5px   var(--co3);
+    margin: ;
+}#principal{
+    font-family: cursive;
+    display: inline;
+    color: var(--co4);
+
+}main{
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
+        
+}
+header > nav{
+    background-image:linear-gradient(to right,var(--cor2),var(--cor2-1));
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+
+}
+NAV > a{
+    margin: 10px;
+    padding: 5px;
+    color: var(--co4);
+    text-decoration: none;
+    text-align: justify;
+}NAV > a:hover{
+    background-color: var(--co3);
+    border-radius: 10px;
+    transition: .5s ;
+}section > nav{
+    columns: 2;
+    padding: 20px;
+    margin-top: 20px;
+    
+
+}.capitulos{
+    text-align: center;
+    background-color: var(--co3);
+    border-radius: 10px 10px 0px 0px;
+}
+nav > h2{
+    margin: 10px 0px;
+    text-align: left;
+    text-indent: 30px;
+
+}nav > p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px 10px;
+
+}article > nav {
+    text-align: justify;
+    padding: 0px 20px;
+    background-color: #8674a0;
+    border-radius: 10px 10px 0px 0px;
+
+}article h2{
+    background-color: #674D8C;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px -20px;
+} main {
+    background-color: var(--cor6);
+    border-radius: 10px;
+}picture div{
+    position: absolute;
+    padding: 1% 15%;
+    background-color: aliceblue;
+    
+}footer nav{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background-color: #ffffff;
+}
