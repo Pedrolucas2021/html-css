@@ -87,9 +87,9 @@ nav > h2{
 }article > nav {
     text-align: justify;
     padding: 0px 20px;
-    background-color: #8674a0;
+    background-color: var(--co1);
     border-radius: 10px 10px 0px 0px;
-    border: solid 1px var(--cor5);
+    border: solid 1px var(--cor6);
 }article h2{
     background-color: #674D8C;
     border-radius: 10px 10px 0px 0px;
