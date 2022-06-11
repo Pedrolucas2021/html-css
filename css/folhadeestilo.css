@@ -83,11 +83,12 @@ nav > h2{
     padding: 0px 20px;
     background-color: #8674a0;
     border-radius: 10px 10px 0px 0px;
-
+    border: solid 1px var(--cor5);
 }article h2{
     background-color: #674D8C;
     border-radius: 10px 10px 0px 0px;
     margin: 0px -20px;
+    
 } main {
     background-color: var(--cor6);
     border-radius: 10px;
@@ -95,10 +96,11 @@ nav > h2{
     position: absolute;
     padding: 1% 15%;
     background-color: aliceblue;
-    
+    margin: 10px;
 }footer nav{
     text-align: center;
-    position: relative;
+    
     padding: 10px;
-    background-color: #ffffff;
+    background-color: var(--cor2);
+    font-weight: lighter;
 }
