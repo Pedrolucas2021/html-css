@@ -13,9 +13,9 @@
 }:root{
     --co1: #8674a0;
     --cor2: #be827d;
-    --cor2-1: #bdb5b4;
+    --cor2-1: #ccc6c5;
     --co3: #674D8C;
-    --co4: #f2f2f28f;
+    --co4: #e7e7e7ab;
     --cor5: #0D0D0D;
     --cor6: #ffffff;
 }body{
@@ -24,7 +24,7 @@
 }header > section{
     background-image: linear-gradient(to bottom, var(--co1),var(--co3));
     border: solid 2px var(--cor5);
-    padding: 4% 38%;
+    padding: 4% 20%;
     text-align: center;
     box-shadow: 0px 4px 13px 5px   var(--co3);
     
@@ -32,7 +32,10 @@
     font-family: cursive;
     display: inline;
     color: var(--co4);
-
+    font-size: 2em;
+    background-image:linear-gradient(to right,var(--cor2),var(--cor2-1));
+    border-radius: 10px;
+    padding: 10px;
 }main{
         min-width: 320px;
         max-width: 800px;
@@ -53,6 +56,8 @@ NAV > a{
     color: var(--co4);
     text-decoration: none;
     text-align: justify;
+    font-weight: bold;
+    font-size: 1.5em;
 }NAV > a:hover{
     background-color: var(--co3);
     border-radius: 10px;
@@ -67,12 +72,13 @@ NAV > a{
     text-align: center;
     background-color: var(--co3);
     border-radius: 10px 10px 0px 0px;
+    padding: 10px;
 }
 nav > h2{
     margin: 10px 0px;
     text-align: left;
-    text-indent: 30px;
-
+    border: solid 1px var(--cor5);
+    padding: 10px;
 }nav > p{
     text-align: justify;
     text-indent: 30px;
@@ -90,7 +96,7 @@ nav > h2{
     margin: 0px -20px;
     
 } main {
-    background-color: var(--cor6);
+    background-color: var(--cor2-1);
     border-radius: 10px;
 }picture div{
     position: absolute;
@@ -99,7 +105,9 @@ nav > h2{
     margin: 10px;
 }footer nav{
     text-align: center;
-    padding: 10px;
-    background-color: var(--cor2);
+    padding: 20px;
+    background-image:linear-gradient(to right,var(--cor2),var(--cor2-1));
     font-weight: lighter;
-}
+    margin: 20px 0px 0px 0px;
+    border: solid 1px var(--cor5);
+} 
