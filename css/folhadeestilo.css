@@ -99,8 +99,7 @@ nav > h2{
     background-color: var(--cor2-1);
     border-radius: 10px;
 }picture div{
-    position: absolute;
-    padding: 1% 15%;
+    padding: 1% 25%;
     background-color: aliceblue;
     margin: 10px;
 }footer nav{
