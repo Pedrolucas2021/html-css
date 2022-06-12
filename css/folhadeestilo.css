@@ -19,7 +19,8 @@
     --cor5: #0D0D0D;
     --cor6: #ffffff;
 }body{
-        background-color: var(--co1);
+        
+        background-image: url(C:\Users\silva\Documents\estudos\html-css\img\probabilidade.png);
         
 }header > section{
     background-image: linear-gradient(to bottom, var(--co1),var(--co3));
@@ -40,7 +41,7 @@
         min-width: 320px;
         max-width: 800px;
         margin: auto;
-        
+        background-image: url('img/probabilidade.png');
 }
 header > nav{
     background-image:linear-gradient(to right,var(--cor2),var(--cor2-1));
@@ -109,4 +110,5 @@ nav > h2{
     font-weight: lighter;
     margin: 20px 0px 0px 0px;
     border: solid 1px var(--cor5);
-} 
+}.probabilidade{
+    }
