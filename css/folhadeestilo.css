@@ -38,8 +38,7 @@
     border-radius: 10px;
     padding: 10px;
 }main{
-    min-width: 320px;
-    max-width: 800px;
+    
     margin: auto;
     background-image: url('img/probabilidade.png');
 }
@@ -97,14 +96,16 @@ nav > h2{
     margin: 0px -20px;
     
 } main {
+    max-width: 880px;
+    min-width: 330px;
     background-color: var(--cor2-1);
     border-radius: 10px;
-}picture div{
+}img{
     height: 100vh;
-    padding: 1% 25%;
     background-color: aliceblue;
-    margin: 10px;
-    background-size: cover;
+    background-size: 100%;
+    display: block;
+    background-position: center center;
 }footer nav{
     text-align: center;
     padding: 20px;
@@ -112,6 +113,4 @@ nav > h2{
     font-weight: lighter;
     margin: 20px 0px 0px 0px;
     border: solid 1px var(--cor5);
-}.probabilidade{
-    background-position: right center;
-    }
+}
