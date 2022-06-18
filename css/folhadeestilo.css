@@ -100,9 +100,11 @@ nav > h2{
     background-color: var(--cor2-1);
     border-radius: 10px;
 }picture div{
+    height: 100vh;
     padding: 1% 25%;
     background-color: aliceblue;
     margin: 10px;
+    background-size: cover;
 }footer nav{
     text-align: center;
     padding: 20px;
