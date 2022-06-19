@@ -19,8 +19,8 @@
     --cor5: #0D0D0D;
     --cor6: #ffffff;
 }body{
-    background-image: url('img/probabilidade.png');
-    
+   
+    background-color: #8674a0;
         
 }header > section{
     background-image: linear-gradient(to bottom, var(--co1),var(--co3));
@@ -38,11 +38,8 @@
     border-radius: 10px;
     padding: 10px;
 }main{
-    
     margin: auto;
-    background-image: url('img/probabilidade.png');
-}
-header > nav{
+}header > nav{
     background-image:linear-gradient(to right,var(--cor2),var(--cor2-1));
     margin: 20px 0px;
     padding: 10px;
@@ -87,7 +84,7 @@ nav > h2{
 }article > nav {
     text-align: justify;
     padding: 0px 20px;
-    background-color: var(--co1);
+    background-color: var(--cor2-1);
     border-radius: 10px 10px 0px 0px;
     border: solid 1px var(--cor6);
 }article h2{
@@ -100,12 +97,13 @@ nav > h2{
     min-width: 330px;
     background-color: var(--cor2-1);
     border-radius: 10px;
+    
 }img{
-    height: 100vh;
-    background-color: aliceblue;
-    background-size: 100%;
-    display: block;
-    background-position: center center;
+    display: inline;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    margin: 20px 0px;
 }footer nav{
     text-align: center;
     padding: 20px;
