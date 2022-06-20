@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+
+
+:root{
+
+
+    --cor1: #267015;
+    --cor2: #4F8843;
+
+
+}*{
+    margin: 0px;
+    padding: 0px;
+
+}main{
+    min-width: 330px;
+    margin: auto;
+    
+}
+section{
+    background-color: var(--cor1);
+    text-align: center;
+    height: 300px;
+    position: relative;
+    
+}section nav{
+    background-color: var(--cor2);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    font-size: 2em;
+    box-shadow: 0px 0px 12px 0px #000000b4;
+}nav h1{
+    margin: 50px 0px;
+}div{
+    padding: 10% 5%;
+    text-indent: 20px;
+
+}div p{
+    font-weight: bold;
+    font-size: 2em;
+}span{
+    font-style: italic;
+    font-weight: lighter;
+}.fundo{
+    background-attachment: fixed;
+    background-image: url(img/O-principe-livroeditada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    box-shadow: 0px 0px 8px 0px #000000 ;
+}footer{
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+    border-top: solid 10px var(--cor1);
+    border-radius: 5px;
+}
