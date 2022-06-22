@@ -7,6 +7,7 @@
 
     --cor1: #267015;
     --cor2: #4F8843;
+    --cor3: #000000;
 
 
 }*{
@@ -24,7 +25,7 @@ section{
     height: 300px;
     position: relative;
     
-}section nav{
+}.titulo{
     background-color: var(--cor2);
     height: 150px;
     width: 100%;
@@ -32,6 +33,20 @@ section{
     top: 20%;
     font-size: 2em;
     box-shadow: 0px 0px 12px 0px #000000b4;
+
+}.menu{
+    position: absolute;
+    top: 80%;
+    background-color: #4F8843;
+    width: 100%;
+    padding: 5px;
+    left: 0px;
+}nav a{
+    text-decoration: none;
+    color: var(--cor3);
+    font-size: 1.5em;
+    margin: 20px;
+    fo
 }nav h1{
     margin: 50px 0px;
 }div{
@@ -50,7 +65,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center;
-    box-shadow: 0px 0px 8px 0px #000000 ;
+    box-shadow: 0px 0px 8px 0px var(--cor3) ;
 }footer{
     background-color: var(--cor2);
     text-align: center;
