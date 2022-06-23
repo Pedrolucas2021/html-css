@@ -7,37 +7,63 @@
     <title>Document</title>
     <style>
         table{
-            width: 300px;
-            height: 300px;
+            width: 500px;
+            height: 250px;
             border-collapse: collapse;
-            background-color: aquamarine;
-        }
-        td{
+            position: relative;
+        }td, th{
             border: solid 1px #000000;
             text-align: center;
-            vertical-align: top;
+            vertical-align: middle;
+            padding: 2px 10px;
+        }thead > tr> th{
+            position: sticky;
+            top: -1px;
+            background-color: blue;
         }
+
     </style>
 </head>
 
 <body>
     <h1>Testando Tabelas</h1>
     <table>
-        <tr>
-            <td>dado1-1</td>
-            <td>dado2-1</td>
-            <td>dado3-1</td>
-        </tr>
-            <td>dado1-2</td>
-            <td>dado2-2</td>
-            <td>dado3-2</td>
-
-        </tr>
-        <tr>
-            <td>dado1-3</td>
-            <td>dado2-3</td>
-            <td>dado3-3</td>
-        </tr>
+        <thead>
+            <tr>
+                <th scope="col" colspan="5">exedado1</th>                
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">a</td>
+                <td rowspan="4">b</td>
+                
+            </tr>
+                <td rowspan="4">c</td>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+                
+            </tr>
+            <tr>
+                <td>g</td>
+                <td>h</td>
+                <td>i</td>
+            </tr>
+            <tr><td>j</td>
+                <td>l</td>
+                <td>m</td>
+                
+                
+            </tr>
+            <tr>
+                <td colspan="4">n</td>
+            </tr>
+        
+        </tbody>
+        
+        
     </table>
 </body>
 </html>
