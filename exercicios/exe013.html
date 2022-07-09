@@ -15,26 +15,33 @@
         background-repeat: no-repeat;
         background-size:  cover;
         height: 100vh;
+        width: 100vw;
         background-position: center;
-        position: relative;
     }main{
-        margin: auto;
-        height: 100%;
-        background-image: url('../exercicios/img/android-2113313_960_720.webp');
-        background-repeat: no-repeat;
-        background-position: center;
-    }iframe{
         position: absolute;
-        top: 22%;
-        left: 35%;
-        width: 200px;
-        height: 358px;
+        background-image: url(img/celularsemfundo.png);
+        height: 530px;
+        width: 230px;
+        background-size: cover;
+        background-position: center top;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }.iframe{
+        position: absolute;
+        top: 46px;
+        left: 14px;
+        background-color: violet;
+        border-radius: 14px;
+        height: 438px;
+        width: 202px;
+        
     }
-     </style>
+</style>
 <body>
     <main>
-        <iframe src="iframe013.html" frameborder="1"></iframe>
+        <section>
+            <iframe class="iframe" src="iframe013.html" frameborder="0">seu navegador não é compativel</iframe>
+        </section>
     </main>
- 
-</body>
-</html>
+</body>   
