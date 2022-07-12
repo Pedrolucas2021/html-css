@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+img{
+    width: 100vw;
+}/*a{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 100vw;
+    font-size: 3em;
+    font-weight: bolder;
+}
