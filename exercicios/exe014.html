@@ -18,16 +18,23 @@
         }.enviar{
             font-weight: bolder;
             padding: 5px;
+        }p label:hover {
+            
         }
+
     </style>
     <body>
     <nav>
-        <form>
-            <p><label for="nome">nome:</label> 
-                <input type="text" name="nome" id="nome"></p>
-            <p> <label for="sobrenome">sobrenome:</label> 
-                <input type="text" name="sobrenome" id="sobrenome"></p>
-            <input class="enviar" type="submit" value="enviar">
+        <form action="formulario.php" method="post" autocomplete="off">
+            <p>
+                <label for="nome">nome:</label> 
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p> 
+                <label for="sobrenome">sobrenome:</label> 
+                <input type="text" name="sobrenome" id="sobrenome">
+            </p>
+                <input acti class="enviar" type="submit" value="enviar">
         </form>
     </nav>
 </body>
