@@ -1,0 +1,68 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando soma e divisao</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }body{
+        text-align: center;
+    }h1{
+        margin: 20px 30px;
+        
+    }
+    div{
+        text-align: justify;
+        margin: 20px 120px;
+        background-color: rgba(0, 0, 255, 0.322);
+        padding: 20px;
+    }.resultado{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+</style>
+<body>
+    <h1>somando e dividindo</h1>
+
+    <input type="number" id="textn1" nome="textn1" required> +
+    <input type="number" id="textn2" nome="textn2" required>
+    <input type="button" value="somar" onclick="somar()" required>
+    <input type="button" value="dividir" onclick="dividir()" required>
+     
+    <div class="resultado" id="somar">
+        Resultado:
+    </div>
+    <div class="resultado" id="dividir">
+        Resultado:
+    </div>
+    <nav>
+        <script>
+            var nt1 = document.getElementById("textn1")
+            var nt2 = document.getElementById("textn2")
+
+            function somar() {
+            
+            var somar = document.getElementById("somar")
+            var n1 = Number.parseFloat(nt1.value)
+            var n2 = Number.parseFloat(nt2.value)
+            var s = n1 + n2
+            somar.innerHTML = `Soma de ${n1} mais ${n2} è igual a ${s} `
+            } 
+            function dividir() {
+            var nt1 = document.getElementById("textn1")
+            var nt2 = document.getElementById("textn2")
+            var dividir = document.getElementById("dividir")
+            var n1 = Number.parseFloat(nt1.value)
+            var n2 = Number.parseFloat(nt2.value)
+
+            var d = n1 / n2
+            dividir.innerHTML = ` a divisão entre ${ n1} è ${n2} é igual ${d}`
+            }
+        </script>
+    </nav>
+</body>
+</html>
